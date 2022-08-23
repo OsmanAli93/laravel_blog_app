@@ -1,0 +1,29 @@
+.auth {
+    input.form-control {
+        height: rem(55);
+        padding: 0 rem(38);
+
+        &:focus {
+            border-color: $primary;
+        }
+    }
+
+    .btn {
+        height: rem(65);
+        text-transform: uppercase;
+        color: #fff;
+
+        &:hover {
+            color: #fff;
+        }
+    }
+
+    .remember {
+        font-size: rem(14);
+        color: #999999;
+    }
+
+    span > a {
+        font-size: rem(14);
+    }
+}

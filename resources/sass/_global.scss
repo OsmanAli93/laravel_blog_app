@@ -1,0 +1,129 @@
+.section-gap {
+    padding: rem(90) 0;
+}
+
+.edit-profile {
+    padding: rem(28) rem(38);
+    border-radius: rem(13);
+    box-shadow: 0 0 30px 0 rgba($color: #000000, $alpha: 0.03);
+
+    .avatar-null {
+        position: relative;
+
+        .bi-person-circle {
+            font-size: rem(130);
+        }
+    }
+
+    .preview {
+        display: none;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        border: rem(6) solid #cccc;
+        margin: rem(15) auto;
+    }
+
+    .text-preview {
+        display: none;
+    }
+
+    input.form-control,
+    select {
+        height: rem(55);
+        // padding: 0 rem(38);
+        line-height: rem(40);
+
+        &:focus {
+            border-color: $primary;
+        }
+    }
+
+    .btn {
+        height: rem(65);
+        text-transform: uppercase;
+        color: #fff;
+
+        &:hover {
+            color: #fff;
+        }
+    }
+}
+
+.image-preview {
+    min-height: rem(100);
+}
+
+.custom-toast {
+    position: fixed;
+    bottom: rem(-100);
+    left: rem(30);
+    background-color: #333;
+    min-width: rem(250);
+    color: #fff;
+    padding: rem(16);
+    border-radius: rem(2);
+    z-index: 99;
+    text-align: center;
+    font-size: rem(15);
+    transition: all 0.25s ease-in-out;
+}
+
+.custom-toast.show {
+    bottom: rem(30);
+}
+
+.contents {
+    .content {
+        box-shadow: 0 0 30px 0 rgba($color: #000000, $alpha: 0.08);
+
+        img {
+            border-top-left-radius: rem(4);
+            border-top-right-radius: rem(4);
+        }
+
+        h3 {
+            font-size: rem(21);
+            padding: rem(8) 0;
+        }
+
+        .date {
+            font-size: rem(14);
+        }
+
+        .content-text {
+            line-height: 1.8;
+            font-size: rem(15);
+        }
+
+        .content-details {
+            padding: rem(20) rem(30) rem(30) rem(30);
+            height: rem(290);
+            margin-bottom: rem(30);
+        }
+    }
+}
+
+.content .content-img {
+    position: relative;
+
+    .cta {
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 10;
+    }
+}
+
+footer {
+    color: #3a4f66;
+    background-color: #f2f5f7;
+}
+
+.fs-13 {
+    font-size: rem(13);
+}
+
+.fs-38 {
+    font-size: rem(38);
+}
